@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "ts": "2026-09-11T15:02:06+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-09T17:43:20+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-11T15:02:06+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-08T16:09:40+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-11T15:02:06+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-09T14:33:10+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-11T15:02:06+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-09T19:42:31+02:00",
+  "prix": 0.878
+ },
+ {
+  "ts": "2026-09-11T15:02:06+02:00",
+  "type": "fin_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-08T12:37:33+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-11T15:02:06+02:00",
+  "type": "fin_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-10T11:44:00+02:00",
+  "prix": null
+ }
+]
