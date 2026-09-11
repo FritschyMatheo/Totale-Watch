@@ -1,0 +1,14 @@
+{
+  "_comment": "id = identifiant du point de vente dans le flux prix-carburants.gouv.fr. Ajouter/retirer une station = éditer cette liste.",
+  "stations": [
+    { "id": 68250004, "nom": "Relais de Rouffach (Total Access)", "adresse": "RN 83, 68250 Rouffach", "zone": "Rouffach" },
+    { "id": 68200020, "nom": "TotalEnergies av. François Mitterrand", "adresse": "35 av. François Mitterrand, 68200 Mulhouse", "zone": "Mulhouse" },
+    { "id": 68200019, "nom": "Total Access Dornach", "adresse": "238 bis rue de Belfort, 68200 Mulhouse", "zone": "Mulhouse" },
+    { "id": 68100009, "nom": "TotalEnergies rue d'Altkirch", "adresse": "24 rue d'Altkirch, 68100 Mulhouse", "zone": "Mulhouse" },
+    { "id": 68200018, "nom": "TotalEnergies av. de Colmar", "adresse": "185 av. de Colmar, 68200 Mulhouse", "zone": "Mulhouse" },
+    { "id": 68110006, "nom": "Total Access Illzach", "adresse": "77 av. de Fribourg, 68110 Illzach", "zone": "Mulhouse" },
+    { "id": 68460001, "nom": "Relais de Lutterbach", "adresse": "RN 66, 68460 Lutterbach", "zone": "Mulhouse → Cernay" },
+    { "id": 68120005, "nom": "Station Joanny (Total)", "adresse": "15 route de Thann, 68120 Pfastatt", "zone": "Mulhouse → Cernay" },
+    { "id": 68701001, "nom": "TotalEnergies Cernay", "adresse": "Faubourg de Belfort, 68700 Cernay", "zone": "Mulhouse → Cernay" }
+  ]
+}

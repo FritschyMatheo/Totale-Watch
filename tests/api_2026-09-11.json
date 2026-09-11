@@ -1,0 +1,95 @@
+{
+ "total_count": 9,
+ "results": [
+  {
+   "id": 68200018,
+   "prix": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-11 00:01:00\", \"@valeur\": \"0.866\"}",
+   "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-11-10 11:00:24\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-25 09:02:57\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-09 11:44:16\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-10 07:15:30\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-11 10:01:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Oui",
+   "latitude": "4776200",
+   "longitude": "732600",
+   "ville": "Mulhouse",
+   "adresse": "185 AV DE COLMAR"
+  },
+  {
+   "id": 68200019,
+   "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-11 00:01:00\", \"@valeur\": \"2.250\"}",
+   "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-11-09 06:43:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2022-11-09 06:43:43\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2022-11-24 14:55:13\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-08-31 09:08:27\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-07 07:04:35\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Non",
+   "latitude": "4773842.9993093",
+   "longitude": "729419.53372956",
+   "ville": "Mulhouse",
+   "adresse": "238 BIS RUE DE BELFORT DORNACH"
+  },
+  {
+   "id": 68460001,
+   "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-11 00:01:00\", \"@valeur\": \"2.250\"}",
+   "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2021-07-06 13:56:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2021-07-06 13:56:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2021-07-06 13:56:54\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-08 13:49:58\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-08 19:46:57\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Non",
+   "latitude": "4776800",
+   "longitude": "725200",
+   "ville": "Lutterbach",
+   "adresse": "RN 66"
+  },
+  {
+   "id": 68250004,
+   "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-11 00:01:00\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-11 00:01:00\", \"@valeur\": \"0.865\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2026-09-11 00:01:00\", \"@valeur\": \"0.999\"}]",
+   "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2019-01-15 11:08:32\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-08 09:08:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-08 09:08:37\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Oui",
+   "latitude": "4794500",
+   "longitude": "728900",
+   "ville": "Rouffach",
+   "adresse": "RN 83"
+  },
+  {
+   "id": 68100009,
+   "prix": null,
+   "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2020-09-24 09:40:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2020-09-24 09:40:10\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-08 16:09:40\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-09 14:33:10\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-09 17:43:20\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2026-09-09 19:42:31\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Oui",
+   "latitude": "4774000",
+   "longitude": "733900",
+   "ville": "Mulhouse",
+   "adresse": "24 RUE D'ALTKIRCH"
+  },
+  {
+   "id": 68110006,
+   "prix": "{\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-11 06:44:43\", \"@valeur\": \"0.869\"}",
+   "rupture": "[{\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-07-17 11:15:25\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2023-04-28 11:33:45\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-08 15:35:02\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-10 16:22:26\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"Gazole\", \"@id\": \"1\", \"@debut\": \"2026-09-11 08:53:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Non",
+   "latitude": "4776800",
+   "longitude": "738700",
+   "ville": "Illzach",
+   "adresse": "77 AVENUE DE FRIBOURG"
+  },
+  {
+   "id": 68200020,
+   "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-11 00:01:00\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2026-09-11 00:01:00\", \"@valeur\": \"0.859\"}]",
+   "rupture": "[{\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2018-01-16 13:14:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2018-01-16 13:14:29\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-09 17:17:39\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-10 12:23:42\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Oui",
+   "latitude": "4774100",
+   "longitude": "730700",
+   "ville": "Mulhouse",
+   "adresse": "35 AVENUE FRANCOIS MITTERRAND"
+  },
+  {
+   "id": 68701001,
+   "prix": null,
+   "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2017-09-27 19:26:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2017-09-27 19:26:02\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2022-04-08 18:39:11\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@debut\": \"2026-09-08 12:37:33\", \"@fin\": \"\", \"@type\": \"temporaire\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-10 11:44:00\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Oui",
+   "latitude": "4779500",
+   "longitude": "717200",
+   "ville": "Cernay",
+   "adresse": "Faubourg de Belfort"
+  },
+  {
+   "id": 68120005,
+   "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2026-09-02 11:04:19\", \"@valeur\": \"2.250\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2026-09-02 11:04:19\", \"@valeur\": \"1.990\"}]",
+   "rupture": "[{\"@nom\": \"E85\", \"@id\": \"3\", \"@debut\": \"2025-10-15 11:08:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@debut\": \"2025-10-15 11:08:08\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP95\", \"@id\": \"2\", \"@debut\": \"2025-10-15 18:17:34\", \"@fin\": \"\", \"@type\": \"definitive\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@debut\": \"2026-09-05 08:18:07\", \"@fin\": \"\", \"@type\": \"temporaire\"}]",
+   "horaires_automate_24_24": "Oui",
+   "latitude": "4775838.6853882",
+   "longitude": "729400.23698764",
+   "ville": "Pfastatt",
+   "adresse": "15 ROUTE DE THANN"
+  }
+ ]
+}

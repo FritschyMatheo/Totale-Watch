@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Total Watch — Haut-Rhin</title>
+<style>
+  :root {
+    --bg: #f6f5f1; --card: #ffffff; --ink: #1c1b18; --muted: #6b675e; --line: #e3e0d8;
+    --ok: #1f7a4d; --ok-bg: #e4f3ea; --ko: #b3261e; --ko-bg: #fbe7e5; --na: #8a8578; --na-bg: #eeece6;
+    --accent: #1c1b18; --accent-ink: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161614; --card: #1f1f1c; --ink: #ece9e1; --muted: #a39e92; --line: #33322d;
+      --ok: #6fd39a; --ok-bg: #16311f; --ko: #ff8a80; --ko-bg: #3a1a17; --na: #8a8578; --na-bg: #2a2924;
+      --accent: #ece9e1; --accent-ink: #161614;
+    }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; margin-bottom: 20px; }
+  h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+  h1 small { font-weight: 400; color: var(--muted); font-size: 14px; margin-left: 8px; }
+  #meta { color: var(--muted); font-size: 13px; }
+  #meta.stale { color: var(--ko); font-weight: 600; }
+
+  .toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--card); margin: 0 8px 12px 0; }
+  .toggle button { border: 0; background: transparent; color: var(--ink); padding: 7px 16px; border-radius: 999px; font: inherit; font-weight: 600; cursor: pointer; }
+  .toggle button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+  .toggle.sub button { padding: 5px 12px; font-weight: 500; font-size: 13px; }
+  .controls { display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+
+  .summary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 8px 0 22px; }
+  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .tile .n { font-size: 28px; font-weight: 700; line-height: 1.1; }
+  .tile .l { color: var(--muted); font-size: 13px; }
+  .tile.ok .n { color: var(--ok); } .tile.ko .n { color: var(--ko); }
+
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 22px 0 8px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 6px; border-left-width: 5px; }
+  .card.ok { border-left-color: var(--ok); } .card.ko { border-left-color: var(--ko); } .card.na { border-left-color: var(--na); }
+  .card .name { font-weight: 650; }
+  .card .addr { color: var(--muted); font-size: 13px; }
+  .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; width: fit-content; margin-top: 4px; }
+  .badge.ok { background: var(--ok-bg); color: var(--ok); } .badge.ko { background: var(--ko-bg); color: var(--ko); } .badge.na { background: var(--na-bg); color: var(--na); }
+  .badge::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+  .card .sub { color: var(--muted); font-size: 13px; }
+  .others { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .chip { font-size: 11.5px; padding: 2px 7px; border-radius: 6px; border: 1px solid var(--line); color: var(--muted); }
+  .chip.ko { border-color: transparent; background: var(--ko-bg); color: var(--ko); }
+  .chip.ok { border-color: transparent; background: var(--ok-bg); color: var(--ok); }
+
+  table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 12px; border-top: 1px solid var(--line); vertical-align: top; }
+  th { border-top: 0; color: var(--muted); font-weight: 600; font-size: 12.5px; text-transform: uppercase; letter-spacing: .06em; }
+  td.ev { font-weight: 600; white-space: nowrap; }
+  td.ev.fin { color: var(--ok); } td.ev.debut { color: var(--ko); }
+  .empty { color: var(--muted); padding: 18px; text-align: center; border: 1px dashed var(--line); border-radius: 12px; }
+  .tablewrap { overflow-x: auto; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 12.5px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Total Watch <small>Rouffach · Mulhouse · Cernay</small></h1>
+    <div id="meta">Chargement…</div>
+  </header>
+
+  <div class="controls">
+    <div class="toggle" role="group" aria-label="Type de carburant">
+      <button data-mode="diesel" aria-pressed="true">Diesel</button>
+      <button data-mode="essence" aria-pressed="false">Essence</button>
+    </div>
+    <div class="toggle sub" id="essenceSub" role="group" aria-label="Type d'essence" hidden>
+      <button data-fuel="E10" aria-pressed="true">SP95-E10</button>
+      <button data-fuel="SP98" aria-pressed="false">SP98</button>
+    </div>
+  </div>
+
+  <div class="summary" id="summary"></div>
+  <div id="stations"></div>
+
+  <h2>Journal — <span id="journalFuel"></span></h2>
+  <div class="tablewrap" id="journal"></div>
+
+  <footer>
+    Source : flux instantané <a href="https://www.prix-carburants.gouv.fr/rubrique/opendata/">prix-carburants.gouv.fr</a> (Licence Ouverte 2.0), relevé toutes les 10 min.
+    Les ruptures sont déclarées par l'exploitant ; une fin de rupture = réapprovisionnement constaté au relevé suivant la clôture.
+  </footer>
+</div>
+
+<script>
+(async function () {
+  const $ = (s) => document.querySelector(s);
+  const fmt = new Intl.DateTimeFormat('fr-FR', { timeZone: 'Europe/Paris', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+  const fmtLong = new Intl.DateTimeFormat('fr-FR', { timeZone: 'Europe/Paris', weekday: 'short', day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' });
+
+  let mode = 'diesel', essence = 'E10';
+  try { mode = localStorage.getItem('tw_mode') || mode; essence = localStorage.getItem('tw_essence') || essence; } catch (e) {}
+
+  const bust = '?t=' + Math.floor(Date.now() / 60000);
+  let latest, events;
+  try {
+    [latest, events] = await Promise.all([
+      fetch('data/latest.json' + bust).then(r => { if (!r.ok) throw 0; return r.json(); }),
+      fetch('data/events.json' + bust).then(r => r.ok ? r.json() : []),
+    ]);
+  } catch (e) {
+    $('#meta').textContent = 'Aucune donnée : le collecteur n\'a pas encore tourné.';
+    $('#meta').classList.add('stale');
+    return;
+  }
+
+  function fuel() { return mode === 'diesel' ? 'Gazole' : essence; }
+  function ago(iso) {
+    const m = Math.round((Date.now() - new Date(iso)) / 60000);
+    if (m < 60) return m + ' min';
+    const h = Math.floor(m / 60);
+    if (h < 48) return h + ' h ' + String(m % 60).padStart(2, '0');
+    return Math.floor(h / 24) + ' j ' + (h % 24) + ' h';
+  }
+
+  function renderMeta() {
+    const m = $('#meta');
+    const age = (Date.now() - new Date(latest.collected_at)) / 60000;
+    m.textContent = 'Dernier relevé : ' + fmtLong.format(new Date(latest.collected_at)) + ' (il y a ' + ago(latest.collected_at) + ')';
+    m.classList.toggle('stale', age > 45);
+    if (age > 45) m.textContent += ' — relevé en retard';
+  }
+
+  function renderStations() {
+    const f = fuel();
+    const groups = {};
+    let nOk = 0, nKo = 0, nNa = 0;
+    for (const s of latest.stations) {
+      const c = (s.carburants || {})[f];
+      let cls, label, sub = '';
+      if (!c || s.absent) { cls = 'na'; label = 'Pas de donnée'; nNa++; }
+      else if (c.status === 'ok') { cls = 'ok'; label = 'Disponible'; nOk++;
+        sub = c.prix ? c.prix.toFixed(3) + ' €/L' + (c.prix_maj ? ' · prix du ' + fmt.format(new Date(c.prix_maj)) : '') : 'prix non publié'; }
+      else if (c.status === 'rupture') { cls = 'ko'; label = 'En rupture'; nKo++;
+        sub = c.rupture_debut ? 'depuis le ' + fmt.format(new Date(c.rupture_debut)) + ' (' + ago(c.rupture_debut) + ')' : ''; }
+      else { cls = 'na'; label = 'Non vendu ici'; nNa++; }
+      const others = ['Gazole', 'E10', 'SP98'].filter(x => x !== f).map(x => {
+        const o = (s.carburants || {})[x];
+        const oc = !o ? '' : o.status === 'ok' ? 'ok' : o.status === 'rupture' ? 'ko' : '';
+        return `<span class="chip ${oc}">${x} ${!o ? '?' : o.status === 'ok' ? '✓' : o.status === 'rupture' ? '✗' : '–'}</span>`;
+      }).join('');
+      (groups[s.zone] ||= []).push(`
+        <div class="card ${cls}">
+          <div class="name">${s.nom}</div>
+          <div class="addr">${s.adresse}${s.h24 === 'Oui' ? ' · 24/24' : ''}</div>
+          <span class="badge ${cls}">${label}</span>
+          ${sub ? `<div class="sub">${sub}</div>` : ''}
+          <div class="others">${others}</div>
+        </div>`);
+    }
+    $('#summary').innerHTML = `
+      <div class="tile ok"><div class="n">${nOk}</div><div class="l">disponible${nOk > 1 ? 's' : ''}</div></div>
+      <div class="tile ko"><div class="n">${nKo}</div><div class="l">en rupture</div></div>
+      <div class="tile"><div class="n">${nNa}</div><div class="l">sans donnée</div></div>`;
+    $('#stations').innerHTML = Object.entries(groups).map(([z, cards]) => `<h2>${z}</h2><div class="grid">${cards.join('')}</div>`).join('');
+  }
+
+  function renderJournal() {
+    const f = fuel();
+    $('#journalFuel').textContent = f === 'Gazole' ? 'Diesel' : f;
+    const rows = events.filter(e => e.carburant === f).slice(-60).reverse();
+    if (!rows.length) { $('#journal').innerHTML = '<div class="empty">Aucun événement enregistré pour ce carburant depuis le début de la collecte.</div>'; return; }
+    $('#journal').innerHTML = `<table><thead><tr><th>Quand</th><th>Événement</th><th>Station</th><th>Détail</th></tr></thead><tbody>` +
+      rows.map(e => {
+        const fin = e.type === 'fin_rupture';
+        const detail = fin
+          ? (e.rupture_debut ? 'rupture depuis le ' + fmt.format(new Date(e.rupture_debut)) : '') + (e.prix ? ' · ' + e.prix.toFixed(3) + ' €/L' : '') + (e.approx ? ' · clôture entre deux relevés' : '')
+          : (e.rupture_debut ? 'déclarée le ' + fmt.format(new Date(e.rupture_debut)) : '');
+        return `<tr><td>${fmtLong.format(new Date(e.ts))}</td><td class="ev ${fin ? 'fin' : 'debut'}">${fin ? 'Réapprovisionné' : 'Rupture'}</td><td>${e.nom}</td><td>${detail}</td></tr>`;
+      }).join('') + '</tbody></table>';
+  }
+
+  function render() {
+    document.querySelectorAll('[data-mode]').forEach(b => b.setAttribute('aria-pressed', b.dataset.mode === mode));
+    document.querySelectorAll('[data-fuel]').forEach(b => b.setAttribute('aria-pressed', b.dataset.fuel === essence));
+    $('#essenceSub').hidden = mode !== 'essence';
+    renderMeta(); renderStations(); renderJournal();
+  }
+  document.querySelectorAll('[data-mode]').forEach(b => b.onclick = () => { mode = b.dataset.mode; try { localStorage.setItem('tw_mode', mode); } catch (e) {} render(); });
+  document.querySelectorAll('[data-fuel]').forEach(b => b.onclick = () => { essence = b.dataset.fuel; try { localStorage.setItem('tw_essence', essence); } catch (e) {} render(); });
+  render();
+  setInterval(renderMeta, 60000);
+})();
+</script>
+</body>
+</html>

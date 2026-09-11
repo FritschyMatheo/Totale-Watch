@@ -1,0 +1,38 @@
+name: Relevé carburants
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # toutes les 10 min (GitHub peut retarder de quelques minutes)
+  workflow_dispatch:          # lancement manuel depuis l'onglet Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Relevé
+        run: python3 collect.py
+
+      - name: Commit des données
+        run: |
+          git config user.name "total-watch-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Aucun changement"
+          else
+            git commit -m "relevé $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git push
+          fi
