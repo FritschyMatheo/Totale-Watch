@@ -79,5 +79,59 @@
   "carburant": "Gazole",
   "rupture_debut": "2026-09-11T14:48:34+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-12T13:08:34+02:00",
+  "type": "debut_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-12T11:36:09+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-12T13:08:34+02:00",
+  "type": "debut_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-12T11:36:09+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-12T13:08:34+02:00",
+  "type": "debut_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-12T09:22:03+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-12T13:08:34+02:00",
+  "type": "fin_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-11T08:53:33+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-12T13:08:34+02:00",
+  "type": "fin_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-08T15:35:02+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-12T13:08:34+02:00",
+  "type": "fin_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-11T17:53:42+02:00",
+  "prix": 0.869
  }
 ]
