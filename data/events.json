@@ -160,5 +160,23 @@
   "carburant": "SP98",
   "rupture_debut": "2026-09-12T14:58:19+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-12T21:14:04+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-12T17:50:59+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-12T21:14:04+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-12T17:50:59+02:00",
+  "rupture_type": "temporaire"
  }
 ]
