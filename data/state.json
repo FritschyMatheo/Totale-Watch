@@ -32,19 +32,19 @@
    "E85": {
     "status": "ok",
     "prix": 0.865,
-    "prix_maj": "2026-09-12T00:01:00+02:00",
+    "prix_maj": "2026-09-13T00:01:00+02:00",
     "rupture_debut": null,
     "rupture_type": null
    },
    "GPLc": {
     "status": "ok",
     "prix": 0.999,
-    "prix_maj": "2026-09-12T00:01:00+02:00",
+    "prix_maj": "2026-09-13T00:01:00+02:00",
     "rupture_debut": null,
     "rupture_type": null
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  },
  "68200020": {
   "carburants": {
@@ -91,7 +91,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  },
  "68200019": {
   "carburants": {
@@ -138,7 +138,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  },
  "68100009": {
   "carburants": {
@@ -185,7 +185,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  },
  "68200018": {
   "carburants": {
@@ -220,7 +220,7 @@
    "E85": {
     "status": "ok",
     "prix": 0.866,
-    "prix_maj": "2026-09-12T00:01:00+02:00",
+    "prix_maj": "2026-09-13T00:01:00+02:00",
     "rupture_debut": null,
     "rupture_type": null
    },
@@ -232,7 +232,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  },
  "68110006": {
   "carburants": {
@@ -279,7 +279,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  },
  "68460001": {
   "carburants": {
@@ -326,7 +326,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  },
  "68120005": {
   "carburants": {
@@ -373,7 +373,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  },
  "68701001": {
   "carburants": {
@@ -420,6 +420,6 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-12T23:27:58+02:00"
+  "seen": "2026-09-13T01:10:24+02:00"
  }
 }
