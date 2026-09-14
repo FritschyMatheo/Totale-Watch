@@ -287,5 +287,68 @@
   "carburant": "E85",
   "rupture_debut": "2026-09-13T17:41:35+02:00",
   "prix": 0.869
+ },
+ {
+  "ts": "2026-09-14T12:44:21+02:00",
+  "type": "fin_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-11T10:01:10+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-14T12:44:21+02:00",
+  "type": "fin_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-10T07:15:30+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-14T12:44:21+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-14T11:35:45+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-14T12:44:21+02:00",
+  "type": "debut_rupture",
+  "station": 68120005,
+  "nom": "Station Joanny (Total)",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-14T08:13:54+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-14T12:44:21+02:00",
+  "type": "debut_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-14T09:10:15+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-14T12:44:21+02:00",
+  "type": "debut_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-14T09:10:15+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-14T12:44:21+02:00",
+  "type": "debut_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-14T09:10:15+02:00",
+  "rupture_type": "temporaire"
  }
 ]
