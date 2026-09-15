@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-09-15T22:11:40+02:00",
+ "collected_at": "2026-09-16T00:55:21+02:00",
  "source": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records",
  "stations": [
   {
@@ -42,15 +42,15 @@
     },
     "E85": {
      "status": "ok",
-     "prix": 0.877,
-     "prix_maj": "2026-09-15T00:01:00+02:00",
+     "prix": 0.895,
+     "prix_maj": "2026-09-16T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "GPLc": {
      "status": "ok",
      "prix": 0.999,
-     "prix_maj": "2026-09-15T00:01:00+02:00",
+     "prix_maj": "2026-09-16T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     }
@@ -258,8 +258,8 @@
     },
     "E85": {
      "status": "ok",
-     "prix": 0.874,
-     "prix_maj": "2026-09-15T00:01:00+02:00",
+     "prix": 0.892,
+     "prix_maj": "2026-09-16T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
