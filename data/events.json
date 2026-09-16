@@ -486,5 +486,50 @@
   "carburant": "E85",
   "rupture_debut": "2026-09-15T18:53:59+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-16T07:50:32+02:00",
+  "type": "fin_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-15T08:46:44+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-16T07:50:32+02:00",
+  "type": "fin_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-14T17:58:45+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-16T07:50:32+02:00",
+  "type": "fin_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-09T11:44:16+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-16T07:50:32+02:00",
+  "type": "fin_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-15T18:53:59+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-16T07:50:32+02:00",
+  "type": "fin_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-15T18:53:59+02:00",
+  "prix": 0.892
  }
 ]
