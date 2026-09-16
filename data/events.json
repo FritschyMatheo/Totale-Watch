@@ -531,5 +531,32 @@
   "carburant": "E85",
   "rupture_debut": "2026-09-15T18:53:59+02:00",
   "prix": 0.892
+ },
+ {
+  "ts": "2026-09-16T12:40:48+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-16T11:26:23+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-16T12:40:48+02:00",
+  "type": "fin_rupture",
+  "station": 68460001,
+  "nom": "Relais de Lutterbach",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-11T14:48:34+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-16T12:40:48+02:00",
+  "type": "fin_rupture",
+  "station": 68460001,
+  "nom": "Relais de Lutterbach",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-08T13:49:58+02:00",
+  "prix": 1.99
  }
 ]
