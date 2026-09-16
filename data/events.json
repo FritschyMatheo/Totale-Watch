@@ -558,5 +558,77 @@
   "carburant": "E10",
   "rupture_debut": "2026-09-08T13:49:58+02:00",
   "prix": 1.99
+ },
+ {
+  "ts": "2026-09-16T17:10:34+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-13T10:41:52+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-16T17:10:34+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-12T09:22:03+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-16T17:10:34+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-12T13:25:48+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-16T17:10:34+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-13T19:44:27+02:00",
+  "prix": 0.894
+ },
+ {
+  "ts": "2026-09-16T17:10:34+02:00",
+  "type": "debut_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-16T14:43:30+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-16T17:10:34+02:00",
+  "type": "debut_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-16T14:54:41+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-16T17:10:34+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-16T14:32:52+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-16T17:10:34+02:00",
+  "type": "fin_rupture",
+  "station": 68460001,
+  "nom": "Relais de Lutterbach",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-08T19:46:57+02:00",
+  "prix": 1.99
  }
 ]
