@@ -630,5 +630,50 @@
   "carburant": "SP98",
   "rupture_debut": "2026-09-08T19:46:57+02:00",
   "prix": 1.99
+ },
+ {
+  "ts": "2026-09-16T20:55:45+02:00",
+  "type": "fin_rupture",
+  "station": 68250004,
+  "nom": "Relais de Rouffach (Total Access)",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-11T16:11:08+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-16T20:55:45+02:00",
+  "type": "fin_rupture",
+  "station": 68250004,
+  "nom": "Relais de Rouffach (Total Access)",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-08T09:08:37+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-16T20:55:45+02:00",
+  "type": "fin_rupture",
+  "station": 68250004,
+  "nom": "Relais de Rouffach (Total Access)",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-08T09:08:37+02:00",
+  "prix": 1.99
+ },
+ {
+  "ts": "2026-09-16T20:55:45+02:00",
+  "type": "debut_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-16T19:00:06+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-16T20:55:45+02:00",
+  "type": "debut_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-16T19:05:13+02:00",
+  "rupture_type": "temporaire"
  }
 ]

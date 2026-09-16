@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-09-16T17:10:34+02:00",
+ "collected_at": "2026-09-16T20:55:45+02:00",
  "source": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records",
  "stations": [
   {
@@ -13,25 +13,25 @@
    "lon": 7.289,
    "carburants": {
     "Gazole": {
-     "status": "rupture",
-     "prix": null,
-     "prix_maj": null,
-     "rupture_debut": "2026-09-11T16:11:08+02:00",
-     "rupture_type": "temporaire"
+     "status": "ok",
+     "prix": 2.25,
+     "prix_maj": "2026-09-16T17:35:44+02:00",
+     "rupture_debut": null,
+     "rupture_type": null
     },
     "E10": {
-     "status": "rupture",
-     "prix": null,
-     "prix_maj": null,
-     "rupture_debut": "2026-09-08T09:08:37+02:00",
-     "rupture_type": "temporaire"
+     "status": "ok",
+     "prix": 1.99,
+     "prix_maj": "2026-09-16T17:35:44+02:00",
+     "rupture_debut": null,
+     "rupture_type": null
     },
     "SP98": {
-     "status": "rupture",
-     "prix": null,
-     "prix_maj": null,
-     "rupture_debut": "2026-09-08T09:08:37+02:00",
-     "rupture_type": "temporaire"
+     "status": "ok",
+     "prix": 1.99,
+     "prix_maj": "2026-09-16T17:35:44+02:00",
+     "rupture_debut": null,
+     "rupture_type": null
     },
     "SP95": {
      "status": "non_vendu",
@@ -43,14 +43,14 @@
     "E85": {
      "status": "ok",
      "prix": 0.895,
-     "prix_maj": "2026-09-16T00:01:00+02:00",
+     "prix_maj": "2026-09-16T17:35:44+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "GPLc": {
      "status": "ok",
      "prix": 0.999,
-     "prix_maj": "2026-09-16T00:01:00+02:00",
+     "prix_maj": "2026-09-16T17:35:44+02:00",
      "rupture_debut": null,
      "rupture_type": null
     }
@@ -229,11 +229,11 @@
    "lon": 7.326,
    "carburants": {
     "Gazole": {
-     "status": "ok",
-     "prix": 2.25,
-     "prix_maj": "2026-09-16T07:33:08+02:00",
-     "rupture_debut": null,
-     "rupture_type": null
+     "status": "rupture",
+     "prix": null,
+     "prix_maj": null,
+     "rupture_debut": "2026-09-16T19:00:06+02:00",
+     "rupture_type": "temporaire"
     },
     "E10": {
      "status": "rupture",
@@ -459,11 +459,11 @@
      "rupture_type": null
     },
     "SP98": {
-     "status": "ok",
+     "status": "rupture",
      "prix": null,
      "prix_maj": null,
-     "rupture_debut": null,
-     "rupture_type": null
+     "rupture_debut": "2026-09-16T19:05:13+02:00",
+     "rupture_type": "temporaire"
     },
     "SP95": {
      "status": "non_vendu",
