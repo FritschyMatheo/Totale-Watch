@@ -44,23 +44,23 @@
     "rupture_type": null
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  },
  "68200020": {
   "carburants": {
    "Gazole": {
-    "status": "ok",
+    "status": "rupture",
     "prix": null,
     "prix_maj": null,
-    "rupture_debut": null,
-    "rupture_type": null
+    "rupture_debut": "2026-09-17T20:00:08+02:00",
+    "rupture_type": "temporaire"
    },
    "E10": {
-    "status": "ok",
+    "status": "rupture",
     "prix": null,
     "prix_maj": null,
-    "rupture_debut": null,
-    "rupture_type": null
+    "rupture_debut": "2026-09-17T20:00:08+02:00",
+    "rupture_type": "temporaire"
    },
    "SP98": {
     "status": "rupture",
@@ -91,7 +91,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  },
  "68200019": {
   "carburants": {
@@ -110,11 +110,11 @@
     "rupture_type": null
    },
    "SP98": {
-    "status": "ok",
+    "status": "rupture",
     "prix": null,
     "prix_maj": null,
-    "rupture_debut": null,
-    "rupture_type": null
+    "rupture_debut": "2026-09-17T19:59:50+02:00",
+    "rupture_type": "temporaire"
    },
    "SP95": {
     "status": "non_vendu",
@@ -138,7 +138,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  },
  "68100009": {
   "carburants": {
@@ -185,7 +185,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  },
  "68200018": {
   "carburants": {
@@ -204,11 +204,11 @@
     "rupture_type": null
    },
    "SP98": {
-    "status": "ok",
-    "prix": 1.99,
-    "prix_maj": "2026-09-17T11:43:12+02:00",
-    "rupture_debut": null,
-    "rupture_type": null
+    "status": "rupture",
+    "prix": null,
+    "prix_maj": null,
+    "rupture_debut": "2026-09-17T18:54:51+02:00",
+    "rupture_type": "temporaire"
    },
    "SP95": {
     "status": "non_vendu",
@@ -232,7 +232,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  },
  "68110006": {
   "carburants": {
@@ -244,11 +244,11 @@
     "rupture_type": "temporaire"
    },
    "E10": {
-    "status": "ok",
+    "status": "rupture",
     "prix": null,
     "prix_maj": null,
-    "rupture_debut": null,
-    "rupture_type": null
+    "rupture_debut": "2026-09-17T17:44:58+02:00",
+    "rupture_type": "temporaire"
    },
    "SP98": {
     "status": "rupture",
@@ -265,11 +265,11 @@
     "rupture_type": "definitive"
    },
    "E85": {
-    "status": "ok",
-    "prix": 0.892,
-    "prix_maj": "2026-09-17T08:16:40+02:00",
-    "rupture_debut": null,
-    "rupture_type": null
+    "status": "rupture",
+    "prix": null,
+    "prix_maj": null,
+    "rupture_debut": "2026-09-17T17:44:58+02:00",
+    "rupture_type": "temporaire"
    },
    "GPLc": {
     "status": "non_vendu",
@@ -279,7 +279,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  },
  "68460001": {
   "carburants": {
@@ -291,18 +291,18 @@
     "rupture_type": "temporaire"
    },
    "E10": {
-    "status": "rupture",
+    "status": "ok",
     "prix": null,
     "prix_maj": null,
-    "rupture_debut": "2026-09-17T10:23:32+02:00",
-    "rupture_type": "temporaire"
+    "rupture_debut": null,
+    "rupture_type": null
    },
    "SP98": {
-    "status": "rupture",
+    "status": "ok",
     "prix": null,
     "prix_maj": null,
-    "rupture_debut": "2026-09-17T08:57:21+02:00",
-    "rupture_type": "temporaire"
+    "rupture_debut": null,
+    "rupture_type": null
    },
    "SP95": {
     "status": "non_vendu",
@@ -326,7 +326,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  },
  "68120005": {
   "carburants": {
@@ -373,7 +373,7 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  },
  "68701001": {
   "carburants": {
@@ -385,18 +385,18 @@
     "rupture_type": null
    },
    "E10": {
-    "status": "rupture",
+    "status": "ok",
     "prix": null,
     "prix_maj": null,
-    "rupture_debut": "2026-09-17T13:50:52+02:00",
-    "rupture_type": "temporaire"
+    "rupture_debut": null,
+    "rupture_type": null
    },
    "SP98": {
-    "status": "rupture",
+    "status": "ok",
     "prix": null,
     "prix_maj": null,
-    "rupture_debut": "2026-09-16T19:05:13+02:00",
-    "rupture_type": "temporaire"
+    "rupture_debut": null,
+    "rupture_type": null
    },
    "SP95": {
     "status": "non_vendu",
@@ -420,6 +420,6 @@
     "rupture_type": "definitive"
    }
   },
-  "seen": "2026-09-17T16:28:07+02:00"
+  "seen": "2026-09-17T20:27:06+02:00"
  }
 }

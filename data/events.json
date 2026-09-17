@@ -855,5 +855,95 @@
   "carburant": "E10",
   "rupture_debut": "2026-09-17T13:50:52+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "debut_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-17T20:00:08+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "debut_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-17T20:00:08+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "debut_rupture",
+  "station": 68200019,
+  "nom": "Total Access Dornach",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-17T19:59:50+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "debut_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-17T18:54:51+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-17T17:44:58+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-17T17:44:58+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "fin_rupture",
+  "station": 68460001,
+  "nom": "Relais de Lutterbach",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-17T10:23:32+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "fin_rupture",
+  "station": 68460001,
+  "nom": "Relais de Lutterbach",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-17T08:57:21+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "fin_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-17T13:50:52+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-17T20:27:06+02:00",
+  "type": "fin_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-16T19:05:13+02:00",
+  "prix": null
  }
 ]
