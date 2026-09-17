@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-09-16T23:51:33+02:00",
+ "collected_at": "2026-09-17T02:00:49+02:00",
  "source": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records",
  "stations": [
   {
@@ -15,21 +15,21 @@
     "Gazole": {
      "status": "ok",
      "prix": 2.25,
-     "prix_maj": "2026-09-16T17:35:44+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "E10": {
      "status": "ok",
      "prix": 1.99,
-     "prix_maj": "2026-09-16T17:35:44+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "SP98": {
      "status": "ok",
      "prix": 1.99,
-     "prix_maj": "2026-09-16T17:35:44+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
@@ -43,14 +43,14 @@
     "E85": {
      "status": "ok",
      "prix": 0.895,
-     "prix_maj": "2026-09-16T17:35:44+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "GPLc": {
      "status": "ok",
      "prix": 0.999,
-     "prix_maj": "2026-09-16T17:35:44+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     }
@@ -177,21 +177,21 @@
     "Gazole": {
      "status": "ok",
      "prix": 2.25,
-     "prix_maj": "2026-09-16T13:12:15+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "E10": {
      "status": "ok",
      "prix": 1.99,
-     "prix_maj": "2026-09-16T13:12:15+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "SP98": {
      "status": "ok",
      "prix": 1.99,
-     "prix_maj": "2026-09-16T13:12:15+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
@@ -205,7 +205,7 @@
     "E85": {
      "status": "ok",
      "prix": 0.894,
-     "prix_maj": "2026-09-16T13:12:15+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
@@ -259,7 +259,7 @@
     "E85": {
      "status": "ok",
      "prix": 0.892,
-     "prix_maj": "2026-09-16T07:33:08+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
@@ -339,21 +339,21 @@
     "Gazole": {
      "status": "ok",
      "prix": 2.25,
-     "prix_maj": "2026-09-16T16:28:32+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "E10": {
      "status": "ok",
      "prix": 1.99,
-     "prix_maj": "2026-09-16T16:28:32+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
     "SP98": {
      "status": "ok",
      "prix": 1.99,
-     "prix_maj": "2026-09-16T16:28:32+02:00",
+     "prix_maj": "2026-09-17T00:01:00+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
