@@ -1098,5 +1098,14 @@
   "carburant": "E10",
   "rupture_debut": "2026-09-18T14:50:35+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T20:23:35+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-18T17:43:52+02:00",
+  "rupture_type": "temporaire"
  }
 ]
