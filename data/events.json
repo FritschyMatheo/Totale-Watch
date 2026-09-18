@@ -1026,5 +1026,41 @@
   "carburant": "SP98",
   "rupture_debut": "2026-09-18T07:27:56+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T13:36:01+02:00",
+  "type": "debut_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-18T11:33:40+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T13:36:01+02:00",
+  "type": "fin_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-16T19:00:06+02:00",
+  "prix": 2.25
+ },
+ {
+  "ts": "2026-09-18T13:36:01+02:00",
+  "type": "debut_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-18T12:56:16+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T13:36:01+02:00",
+  "type": "fin_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-17T18:54:51+02:00",
+  "prix": 1.99
  }
 ]

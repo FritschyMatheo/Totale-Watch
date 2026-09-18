@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-09-18T08:26:05+02:00",
+ "collected_at": "2026-09-18T13:36:01+02:00",
  "source": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records",
  "stations": [
   {
@@ -67,11 +67,11 @@
    "lon": 7.307,
    "carburants": {
     "Gazole": {
-     "status": "ok",
+     "status": "rupture",
      "prix": null,
      "prix_maj": null,
-     "rupture_debut": null,
-     "rupture_type": null
+     "rupture_debut": "2026-09-18T11:33:40+02:00",
+     "rupture_type": "temporaire"
     },
     "E10": {
      "status": "rupture",
@@ -229,25 +229,25 @@
    "lon": 7.326,
    "carburants": {
     "Gazole": {
-     "status": "rupture",
-     "prix": null,
-     "prix_maj": null,
-     "rupture_debut": "2026-09-16T19:00:06+02:00",
-     "rupture_type": "temporaire"
-    },
-    "E10": {
      "status": "ok",
-     "prix": 1.99,
-     "prix_maj": "2026-09-18T00:01:00+02:00",
+     "prix": 2.25,
+     "prix_maj": "2026-09-18T12:57:17+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
-    "SP98": {
+    "E10": {
      "status": "rupture",
      "prix": null,
      "prix_maj": null,
-     "rupture_debut": "2026-09-17T18:54:51+02:00",
+     "rupture_debut": "2026-09-18T12:56:16+02:00",
      "rupture_type": "temporaire"
+    },
+    "SP98": {
+     "status": "ok",
+     "prix": 1.99,
+     "prix_maj": "2026-09-18T12:57:18+02:00",
+     "rupture_debut": null,
+     "rupture_type": null
     },
     "SP95": {
      "status": "non_vendu",
@@ -259,7 +259,7 @@
     "E85": {
      "status": "ok",
      "prix": 0.892,
-     "prix_maj": "2026-09-18T00:01:00+02:00",
+     "prix_maj": "2026-09-18T12:57:17+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
@@ -291,8 +291,8 @@
     },
     "E10": {
      "status": "ok",
-     "prix": null,
-     "prix_maj": null,
+     "prix": 1.99,
+     "prix_maj": "2026-09-18T08:00:42+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
@@ -312,8 +312,8 @@
     },
     "E85": {
      "status": "ok",
-     "prix": null,
-     "prix_maj": null,
+     "prix": 0.892,
+     "prix_maj": "2026-09-18T08:00:42+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
