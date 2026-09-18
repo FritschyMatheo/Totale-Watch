@@ -1062,5 +1062,41 @@
   "carburant": "SP98",
   "rupture_debut": "2026-09-17T18:54:51+02:00",
   "prix": 1.99
+ },
+ {
+  "ts": "2026-09-18T17:07:23+02:00",
+  "type": "debut_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-18T13:42:47+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T17:07:23+02:00",
+  "type": "debut_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-18T15:19:09+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T17:07:23+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-18T14:35:23+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T17:07:23+02:00",
+  "type": "debut_rupture",
+  "station": 68460001,
+  "nom": "Relais de Lutterbach",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-18T14:50:35+02:00",
+  "rupture_type": "temporaire"
  }
 ]
