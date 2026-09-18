@@ -972,5 +972,59 @@
   "carburant": "E85",
   "rupture_debut": "2026-09-17T20:01:39+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T08:26:05+02:00",
+  "type": "fin_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-17T20:00:08+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-18T08:26:05+02:00",
+  "type": "fin_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-09T17:17:39+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-18T08:26:05+02:00",
+  "type": "debut_rupture",
+  "station": 68200019,
+  "nom": "Total Access Dornach",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-18T07:04:33+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-18T08:26:05+02:00",
+  "type": "fin_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-17T17:44:58+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-18T08:26:05+02:00",
+  "type": "fin_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-17T17:44:58+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-18T08:26:05+02:00",
+  "type": "debut_rupture",
+  "station": 68460001,
+  "nom": "Relais de Lutterbach",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-18T07:27:56+02:00",
+  "rupture_type": "temporaire"
  }
 ]
