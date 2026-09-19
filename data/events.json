@@ -1218,5 +1218,32 @@
   "carburant": "E85",
   "rupture_debut": "2026-09-19T11:57:58+02:00",
   "prix": 0.894
+ },
+ {
+  "ts": "2026-09-19T19:01:31+02:00",
+  "type": "debut_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-19T17:18:02+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-19T19:01:31+02:00",
+  "type": "debut_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-19T15:37:08+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-19T19:01:31+02:00",
+  "type": "debut_rupture",
+  "station": 68701001,
+  "nom": "TotalEnergies Cernay",
+  "carburant": "E10",
+  "rupture_debut": "2026-09-19T16:23:06+02:00",
+  "rupture_type": "temporaire"
  }
 ]

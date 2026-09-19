@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-09-19T15:57:37+02:00",
+ "collected_at": "2026-09-19T19:01:31+02:00",
  "source": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records",
  "stations": [
   {
@@ -203,11 +203,11 @@
      "rupture_type": "definitive"
     },
     "E85": {
-     "status": "ok",
-     "prix": 0.894,
-     "prix_maj": "2026-09-19T12:56:45+02:00",
-     "rupture_debut": null,
-     "rupture_type": null
+     "status": "rupture",
+     "prix": null,
+     "prix_maj": null,
+     "rupture_debut": "2026-09-19T17:18:02+02:00",
+     "rupture_type": "temporaire"
     },
     "GPLc": {
      "status": "non_vendu",
@@ -311,11 +311,11 @@
      "rupture_type": "definitive"
     },
     "E85": {
-     "status": "ok",
-     "prix": 0.892,
-     "prix_maj": "2026-09-19T07:35:39+02:00",
-     "rupture_debut": null,
-     "rupture_type": null
+     "status": "rupture",
+     "prix": null,
+     "prix_maj": null,
+     "rupture_debut": "2026-09-19T15:37:08+02:00",
+     "rupture_type": "temporaire"
     },
     "GPLc": {
      "status": "non_vendu",
@@ -452,11 +452,11 @@
      "rupture_type": null
     },
     "E10": {
-     "status": "ok",
+     "status": "rupture",
      "prix": null,
      "prix_maj": null,
-     "rupture_debut": null,
-     "rupture_type": null
+     "rupture_debut": "2026-09-19T16:23:06+02:00",
+     "rupture_type": "temporaire"
     },
     "SP98": {
      "status": "ok",
