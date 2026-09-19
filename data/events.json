@@ -1107,5 +1107,88 @@
   "carburant": "E85",
   "rupture_debut": "2026-09-18T17:43:52+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "fin_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-18T11:33:40+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "fin_rupture",
+  "station": 68200020,
+  "nom": "TotalEnergies av. François Mitterrand",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-12T11:36:09+02:00",
+  "prix": null
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-17T20:01:39+02:00",
+  "prix": null,
+  "approx": true
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "debut_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-19T11:57:58+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-17T20:01:39+02:00",
+  "prix": null,
+  "approx": true
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "debut_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-19T11:57:58+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "debut_rupture",
+  "station": 68200018,
+  "nom": "TotalEnergies av. de Colmar",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-19T11:33:01+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "fin_rupture",
+  "station": 68110006,
+  "nom": "Total Access Illzach",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-18T17:43:52+02:00",
+  "prix": 0.892
+ },
+ {
+  "ts": "2026-09-19T12:25:34+02:00",
+  "type": "debut_rupture",
+  "station": 68120005,
+  "nom": "Station Joanny (Total)",
+  "carburant": "Gazole",
+  "rupture_debut": "2026-09-19T08:20:58+02:00",
+  "rupture_type": "temporaire"
  }
 ]

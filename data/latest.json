@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-09-19T07:57:25+02:00",
+ "collected_at": "2026-09-19T12:25:34+02:00",
  "source": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records",
  "stations": [
   {
@@ -67,11 +67,11 @@
    "lon": 7.307,
    "carburants": {
     "Gazole": {
-     "status": "rupture",
+     "status": "ok",
      "prix": null,
      "prix_maj": null,
-     "rupture_debut": "2026-09-18T11:33:40+02:00",
-     "rupture_type": "temporaire"
+     "rupture_debut": null,
+     "rupture_type": null
     },
     "E10": {
      "status": "rupture",
@@ -95,11 +95,11 @@
      "rupture_type": "definitive"
     },
     "E85": {
-     "status": "rupture",
+     "status": "ok",
      "prix": null,
      "prix_maj": null,
-     "rupture_debut": "2026-09-12T11:36:09+02:00",
-     "rupture_type": "temporaire"
+     "rupture_debut": null,
+     "rupture_type": null
     },
     "GPLc": {
      "status": "non_vendu",
@@ -192,7 +192,7 @@
      "status": "rupture",
      "prix": null,
      "prix_maj": null,
-     "rupture_debut": "2026-09-17T20:01:39+02:00",
+     "rupture_debut": "2026-09-19T11:57:58+02:00",
      "rupture_type": "temporaire"
     },
     "SP95": {
@@ -206,7 +206,7 @@
      "status": "rupture",
      "prix": null,
      "prix_maj": null,
-     "rupture_debut": "2026-09-17T20:01:39+02:00",
+     "rupture_debut": "2026-09-19T11:57:58+02:00",
      "rupture_type": "temporaire"
     },
     "GPLc": {
@@ -229,11 +229,11 @@
    "lon": 7.326,
    "carburants": {
     "Gazole": {
-     "status": "ok",
-     "prix": 2.25,
-     "prix_maj": "2026-09-19T00:01:00+02:00",
-     "rupture_debut": null,
-     "rupture_type": null
+     "status": "rupture",
+     "prix": null,
+     "prix_maj": null,
+     "rupture_debut": "2026-09-19T11:33:01+02:00",
+     "rupture_type": "temporaire"
     },
     "E10": {
      "status": "rupture",
@@ -259,7 +259,7 @@
     "E85": {
      "status": "ok",
      "prix": 0.892,
-     "prix_maj": "2026-09-19T00:01:00+02:00",
+     "prix_maj": "2026-09-19T09:53:53+02:00",
      "rupture_debut": null,
      "rupture_type": null
     },
@@ -311,11 +311,11 @@
      "rupture_type": "definitive"
     },
     "E85": {
-     "status": "rupture",
-     "prix": null,
-     "prix_maj": null,
-     "rupture_debut": "2026-09-18T17:43:52+02:00",
-     "rupture_type": "temporaire"
+     "status": "ok",
+     "prix": 0.892,
+     "prix_maj": "2026-09-19T07:35:39+02:00",
+     "rupture_debut": null,
+     "rupture_type": null
     },
     "GPLc": {
      "status": "non_vendu",
@@ -391,11 +391,11 @@
    "lon": 7.294002,
    "carburants": {
     "Gazole": {
-     "status": "ok",
-     "prix": 2.25,
-     "prix_maj": "2026-09-15T10:46:37+02:00",
-     "rupture_debut": null,
-     "rupture_type": null
+     "status": "rupture",
+     "prix": null,
+     "prix_maj": null,
+     "rupture_debut": "2026-09-19T08:20:58+02:00",
+     "rupture_type": "temporaire"
     },
     "E10": {
      "status": "ok",
