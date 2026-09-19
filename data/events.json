@@ -1190,5 +1190,33 @@
   "carburant": "Gazole",
   "rupture_debut": "2026-09-19T08:20:58+02:00",
   "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-19T15:57:37+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-19T11:57:58+02:00",
+  "prix": null,
+  "approx": true
+ },
+ {
+  "ts": "2026-09-19T15:57:37+02:00",
+  "type": "debut_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "SP98",
+  "rupture_debut": "2026-09-19T13:45:37+02:00",
+  "rupture_type": "temporaire"
+ },
+ {
+  "ts": "2026-09-19T15:57:37+02:00",
+  "type": "fin_rupture",
+  "station": 68100009,
+  "nom": "TotalEnergies rue d'Altkirch",
+  "carburant": "E85",
+  "rupture_debut": "2026-09-19T11:57:58+02:00",
+  "prix": 0.894
  }
 ]
